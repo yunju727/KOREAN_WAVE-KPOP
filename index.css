@@ -1,0 +1,73 @@
+.nav .icon {
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+    width:1rem;
+}
+
+.nav ul{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.nav li{
+    display:inline-block;
+    padding : 0 2rem;
+    padding-bottom:2rem;
+}
+.nav .menu a:link{
+    text-decoration:none;
+    color:white;
+}
+.nav .menu a:visited{
+    color:white;
+}
+.nav .menu a:hover{
+    color:rgb(187, 0, 255);
+}
+.nav .menu a:active{
+    color:rgb(187, 0, 255);
+}
+.nav .title a .titlespan{
+    font-weight:900;
+    font-size:1.5rem;
+    color:rgb(222, 131, 255);
+    animation:changeC 4s infinite;
+}
+
+@keyframes changeC{
+    25%{color:rgb(255, 92, 233);}
+    50%{color:rgb(89, 142, 255);}
+    75%{color: rgb(107, 63, 252)}
+}
+
+.nav .title a{
+    text-decoration: none;
+    color: rgb(221, 127, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav .title a:active {
+    color: rgb(221, 127, 255);
+}
+
+.nav .title a:visited{
+    color: rgb(221, 127, 255);
+}
+
+
+.footer div{
+    padding-bottom:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    top:3rem;
+    bottom:0;
+    width:100%;
+    color:white;
+    font-size:14px;
+    flex-direction: column;
+}
